@@ -1,0 +1,135 @@
+*{
+    padding: 20;
+    margin: 20;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url("IMAGES/egor-vikhrev-6QmnEFb7zG8-unsplash.jpg");
+    background-size:cover;
+}
+
+body
+  p {color:rgb(0, 0, 0)}
+  h1 {color:rgb(255, 255, 255);}
+  h2 {color:rgb(255, 255, 255);}
+  h3 {color:rgb(0, 0, 0);}
+  h4 {color:rgb(0, 0, 0);}
+
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .footer h3{
+      margin-bottom: 25px;
+      margin-top: 20px;
+      font-weight: 400;
+  }
+  
+  .fa {
+      padding: 5px;
+      font-size: 1px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      margin: 10px 5px 5px 10px;
+      border-radius: 50px;
+  }
+  .fa:hover {
+      opacity: 10.0;
+  }
+
+  .fa-facebook {
+    background: #31487a;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+      background: #b109b1;
+      color: cornsilk;
+  }
+
+  .fa-youtube {
+      background: #9e0707;
+      color: white;
+  }

@@ -1,0 +1,121 @@
+*{
+    padding: 20;
+    margin: 20;
+    box-sizing:border-box;
+}
+
+body
+    p {color:rgb(0, 0, 0)}
+    p {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    h1 {color:rgb(255, 255, 255);}
+    h1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    h3 {color:rgb(0, 0, 0);}
+    h3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    h4 {color:rgb(255, 255, 255);}
+    h4 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+body{
+    background-image:url("IMAGES/amber-C3iS6W0zUMs-unsplash.jpg");
+    background-size:cover;
+}
+
+body
+{font-family:inherit;}
+
+
+header 
+{ background-color: rgb(214, 171, 101);
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  color: white; }
+
+
+nav 
+{ float: left;
+  width: 30%;
+  height: 320px; 
+  background: rgb(220, 219, 219);
+  padding: 20px; }
+
+
+nav ul 
+{ list-style-type: none;
+  padding: 0; }
+
+
+article 
+{ float: left;
+  padding: 20px;
+  width: 70%;
+  text-align: justify;
+  background-color: #ffffff;
+  height: 320px; }
+
+
+section::after
+{ content: "";
+  display: table;
+  clear: both; }
+
+
+footer
+{ background-color: rgb(214, 171, 101);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255); }
+
+
+@media (max-width: 600px)
+{ nav, article {
+    width: 100%;
+    height: auto; }
+}
+
+/* Footer */
+.footer {
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer h3{
+      margin-bottom: 25px;
+      margin-top: 20px;
+      font-weight: 400;
+  }
+  
+  .fa {
+      padding: 5px;
+      font-size: 1px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      margin: 10px 5px 5px 10px;
+      border-radius: 50px;
+  }
+  .fa:hover {
+      opacity: 10.0;
+  }
+
+  .fa-facebook {
+    background: #31487a;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+      background: #b109b1;
+      color: cornsilk;
+  }
+
+  .fa-youtube {
+      background: #9e0707;
+      color: white;
+  }
+

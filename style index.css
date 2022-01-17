@@ -1,0 +1,128 @@
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+/* Add a gray background color with some padding */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    background: #ffffff;
+    background-image: url("IMAGES/melvin-melvin-4tfChIHMGDg-unsplash.jpg");
+    background-size:cover;
+  }
+
+a:link, a:visited 
+  {
+  color:#ffffff;
+  font-style: initial;
+  font-size: 15px;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration-style:none;
+  display: ruby-text-container;
+  }
+
+a:hover, a:active {
+  background-color:rgb(212, 170, 131);
+  }
+  
+/* Header/Blog Title */
+  .header {
+    padding: 15px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: rgb(189, 144, 101);
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+    padding-right: 10px;
+  }
+
+  img {
+    padding: 20px;
+    width: 910px;
+    height: 510px;
+  }
+
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    height: 10%;
+    padding-left: 20px;
+  }
+
+  /* Add a card effect for articles */
+  .card {
+     background-color: rgb(218, 199, 155);
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 5px;
+    text-align: center;
+    background: rgb(189, 144, 101);
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .footer h3{
+      margin-bottom: 25px;
+      margin-top: 20px;
+      font-weight: 400;
+  }
+  
+  .fa {
+      padding: 5px;
+      font-size: 1px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      margin: 10px 5px 5px 10px;
+      border-radius: 50px;
+  }
+  .fa:hover {
+      opacity: 10.0;
+  }
+
+  .fa-facebook {
+    background: #31487a;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+      background: #b109b1;
+      color: cornsilk;
+  }
+
+  .fa-youtube {
+      background: #9e0707;
+      color: white;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+  }
+}
